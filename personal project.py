@@ -21,9 +21,9 @@ from random import randint
 #Starting (aka editable) constants
 GW_HEIGHT = 800 #anything smaller than 500, the rules screen starts to get cut off, recommended size is 800 x 800 
 GW_WIDTH = 800
-GRIDX, GRIDY = 15, 15 # max recommended grid size for 800 x 800 is 15, you can do ~20, but the shapes turn into blobs very quickly
+GRIDX, GRIDY = 10, 10 # max recommended grid size for 800 x 800 is 15, you can do ~20, but the shapes turn into blobs very quickly
 START_POLY_MIN = 3 #degree of minimum starting polygon, can't be less than 3
-START_POLY_MAX = 18 #degree of maximum starting polygon; I don't recommend going over ~10ish, but I have distinct colors for up to 18
+START_POLY_MAX = 8 #degree of maximum starting polygon; I don't recommend going over ~10ish, but I have distinct colors for up to 18
 POLY_BOX_DISTANCE = 5 #distance between grid lines and polygon
 
 #Derived constants
